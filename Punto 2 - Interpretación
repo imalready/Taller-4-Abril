@@ -1,0 +1,20 @@
+Sección A
+Para este ejercició se utilizo el método de Hermite donde x y y son los puntos donde pasa la curva y 
+dy la tangente respectiva de aquellos puntos. 
+
+#CODIGO DEL MÉTODO HERMITER PARA EL PUNTO 2 EN ANEXOS
+
+Al realizar la interpolación, polinomio obtenido es el siguiente:
+
+0.1137056x^3 - 0.7616754x^2 + 2.1822338x - 1.5342641
+
+Sección B
+
+
+Para la estimación del error en el intervalo [1,2] se calcula el error propuesto en el teorema de Weierstrass, 
+Se halla el punto donde ( f(x) - P(x) )^2 es máximo y usando la definición anterior se puede hayar el error
+correspondiente al intervalo
+
+Siendo x = 1.465783 el punto máximo 
+El error correspondiente es:
+e = 0.003642013
