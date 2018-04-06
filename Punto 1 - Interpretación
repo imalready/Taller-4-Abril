@@ -1,0 +1,19 @@
+Interpolación por método de Lagrange.
+Debido a que este método obtiene solo los datos de los vectores X y Y,  solo se obtiene un polinomio de grado 2 
+por el impedimento de poder integrar en este metodo la tangente f'(0)=1.
+
+-- REVISAR ARCHIVOS ADJUNTOS --
+
+La complejidad (On^2) de este método esta determinada por él numero de datos que contenga el vector x debido al ciclo anidado que se
+realiza para recorrerlo, esto puede llegar a ser un problema a grandes cantidades de datos teniendo en cuenta que
+el presente método como se menciono anteriormente no cuenta con la integración de la tangente sugerida por el ejercicio.
+
+Interpolación por método de Hermite.
+Usando el metodo de Hermite, se pudo realizar la integración de la tangente pero además fue necesario agregar un punto adicional
+a la funcion f'(2)=0, esto debido a la manera en la que el método obtiene los datos del polinomio en base a las derivadas.
+
+-- REVISAR ARCHIVOS ADJUNTOS --
+
+Este método, a parte de permitir la implementación de la derivada sugerida, tiene una complejidad menor (On) 
+debido a que los ciclos son secuenciales y no anidados. Por estas razones es que el método de Hermite es más optimo
+en comparación al método de Lagrange.
