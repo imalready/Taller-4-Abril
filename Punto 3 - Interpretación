@@ -1,0 +1,32 @@
+1.  Datos de la función Gamma F(x,ß,α):
+  X	F(x,ß,α)
+  0	0
+  0.1	0.00467884
+  0.2	0.01752309
+  0.3	0.03613637
+  0.4	0.06155193
+  Graficar F(x,ß,α) para valores de x Є [0,1] y con ß = 1, α = 2.
+  Los valores de F utilizados son:
+  X	F(x,ß,α)
+  0	0
+  0.06	0.0017295
+  0.12	0.0066491
+  0.18	0.0143811
+  0.24	0.0245814
+  0.30	0.0369363
+
+Lá grafica obtenida para el presente ejercicio se encuentra en los archivos anexos.
+
+2. Estimar F(0.25) utilizando el método de Neville y 7 cifras de redondeo.
+Se utiliza la función neville(polynomials,x,y) de la librería 'Ryacas' recibiendo una función triangular 
+inferior para los puntos usados en la graficación asi como el punto F(0.25) sugerido, obteniendo los siguientes resultados:
+
+/	    Q,0	    Q,1	        Q,2	        Q,3	        Q,4	        Q,5
+Q0,	0.0000000	
+Q1,	0.0017295	0.00720625	
+Q2,	0.0066491	0.01730823	0.02825205	
+Q3,	0.0143811	0.02340177	0.02695633	0.02645244	
+Q4,	0.0245814	0.02628145	0.02652142	0.02649726	0.02649913	
+Q5, 0.0369363	0.02664055	0.02649092	0.02649940	0.02649895	0.02649898
+
+-- FUNCIÓN NEVILLE EN ARCHIVOS ANEXOS --
